@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".U3_I3B_Alvarez_Bouzas_Alberto"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/v_mensaxe"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Ventá de diálogo con mensaxe"
+        android:onClick="btnPulsado"/>
+    <Button
+        android:id="@+id/v_botons"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Ventá de diálogo con 3 botóns"
+        android:onClick="btnPulsado"/>
+    <Button
+        android:id="@+id/v_lista"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Ventá con lista de selección"
+        android:onClick="btnPulsado"/>
+    <Button
+        android:id="@+id/v_unica"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Ventá cunha única selección"
+        android:onClick="btnPulsado"/>
+    <Button
+        android:id="@+id/v_multiple"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Ventá diálogo selección múltiple"
+        android:onClick="btnPulsado"/>
+    <Button
+        android:id="@+id/v_entradaTexto"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Ventá diálogo con entrada de texto"
+        android:onClick="btnPulsado"/>
+</LinearLayout>
